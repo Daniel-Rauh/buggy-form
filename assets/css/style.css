@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
+}
+form{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+fieldset{
+    padding: 0;
+}
+h3{
+    background: purple;
+    color: white;
+    margin: 0;
+    font-size: 1em;
+    height: 6vh;
+    padding-top: 2vh;
+}
+input:not(:last-of-type){
+    display: block;
+    width: 90%;
+    height: 3.5vh;
+    padding: 10px;
+    margin: 1vh auto;
+    text-align: center;
+    background: rgb(250, 232, 235);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+input:last-of-type{
+    background: purple;
+    color: white;
+    margin-bottom: 1vh;
+    width: 150px;
+    border: 1px solid white;
+    padding: 1vh 0;
+    font-family: 'Open Sans', sans-serif;
+}
+input:last-of-type:hover{
+    border: 1px solid black;
+}
+::placeholder{
+    color: royalblue;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
